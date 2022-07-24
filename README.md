@@ -55,7 +55,13 @@ github-181717.svg?&style=flat&logo=GitHub&logoColor=white"/>
 
 ### ERD
 
-![Movie ERD (2)](https://user-images.githubusercontent.com/18108296/179358961-868e168e-9015-45a2-8095-214f874fcb39.png)
+![Fanimal ERD](https://user-images.githubusercontent.com/94788360/180637627-d7c5bc56-124f-42a2-b15a-89d98e80e255.png)
+
+<br>
+
+### 흐름도
+
+![Fanimal 흐름도](https://user-images.githubusercontent.com/94788360/180637641-6a080331-5a94-4c75-83b1-36cad29e9e4a.png)
 
 <br>
 
