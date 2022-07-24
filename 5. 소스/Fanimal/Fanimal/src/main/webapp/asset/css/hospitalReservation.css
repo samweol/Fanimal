@@ -1,0 +1,42 @@
+.reservation-sel-animal {
+	overflow-y: hidden;
+}
+
+.reservation-sel-animal .card {
+	color: black;
+	height: 280px;
+	width: 210px;
+	border-radius: 15px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+	background-color: white;
+	font-size: 14px;
+}
+
+.reservation-sel-animal .card-header {
+	height: 185px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.reservation-sel-animal h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.reservation-sel-animal .card-body{
+	line-height: 25px;
+	margin: 5px;
+}
+
+
+
+
+
+
+

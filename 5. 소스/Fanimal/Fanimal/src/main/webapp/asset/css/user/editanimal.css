@@ -1,0 +1,464 @@
+
+.animal tr:nth-child(1) > td:nth-child(1) {
+	border-top: 0px;
+}
+
+#content {
+	padding-top: 20px;
+}
+
+#tablebox {
+	background-color: #fff7dc;
+	border-radius: 20px;	
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px;
+}
+
+
+#required > tbody > tr:nth-child(1) > td > h3 {
+	padding-left: 10px;
+}
+#optional > tbody > tr:nth-child(1) > td > h3 {
+	padding-left: 10px;
+}
+
+
+
+
+
+/* 필수사항 입력요소 제목 css */
+table.animal tr:nth-child(2) >  td:nth-child(1) {
+	/* border-right: 1px solid black; */
+}
+
+table.animal tr:nth-child(2) >  td:nth-child(1) > div {
+	/* background-color: gold; */
+	height: 20px;
+	/* border-radius: 20px; */
+	text-align: center;
+	/* padding-top: 16px; */
+	font-size: 20px;
+	
+}
+
+table.animal tr:nth-child(3) >  td:nth-child(1) > div {
+	height: 20px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+table.animal tr:nth-child(4) >  td:nth-child(1) > div {
+	height: 20px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+table.animal tr:nth-child(5) >  td:nth-child(1) > div {
+	height: 20px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+table.animal tr:nth-child(6) >  td:nth-child(1) > div {
+	height: 20px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+
+table.animal tr:nth-child(7) > td:nth-child(1) > div {
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+table.animal tr:nth-child(8) > td:nth-child(1) > div {
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+table.animal tr:nth-child(9) > td:nth-child(1) > div {
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+table.animal tr:nth-child(10) > td:nth-child(1) > div {
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+table.animal tr:nth-child(11) > td:nth-child(1) > div {
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+table.animal tr:nth-child(12) > td:nth-child(1) > div {
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* 선택 입력요소 제목 css */
+table.animal tr:nth-child(2) >  td:nth-child(1) {
+	/* border-right: 1px solid black; */
+}
+/* 
+ㅌㅌ tr:nth-child(2) >  td:nth-child(1) > div {
+	background-color: gold;
+	height: 20px;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 16px;
+	font-size: 20px;
+	padding-left: 40px;
+	width: 100px;
+	
+} */
+
+table.animal tr:nth-child(8) >  td:nth-child(1) {
+	width: 167.1px;
+}
+
+table.animal tr:nth-child(8) >  td:nth-child(1) > div {
+	height: 20px;
+	/* text-align: center; */
+	font-size: 20px;
+	padding-right: 10px;	
+	
+}
+
+#optional tr:nth-child(9) >  td:nth-child(1) > div {
+	height: 20px;
+	/* text-align: center; */
+	font-size: 20px;
+	padding-left: 40px;	
+}
+
+#optional tr:nth-child(10) >  td:nth-child(1) > div {
+	height: 20px;
+	/* text-align: center; */
+	font-size: 20px;
+	padding-left: 40px;	
+}
+
+table.animal tr:nth-child(12) >  td:nth-child(1) > div {
+	height: 20px;
+	/* text-align: center; */
+	font-size: 20px;
+	/* padding-left: 40px; */	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 필수사항 입력폼 css */
+table.animal tr:nth-child(2) >  td:nth-child(2) > input {	
+	width: 250px;	
+}
+
+table.animal tr:nth-child(3) >  td:nth-child(2) > select {	
+	width: 130px;	
+}
+
+table.animal tr:nth-child(4) >  td:nth-child(2) > select {
+	/* text-align: center; */
+	width: 160px;	
+}
+
+table.animal tr:nth-child(5) >  td:nth-child(2) > label {	
+	margin-right: 10px;		
+}
+
+table.animal tr:nth-child(6) >  td:nth-child(2) > input {	
+	width: 100px	
+}
+
+
+
+
+/* 선택사항 입력폼 css */
+
+#bir_wrap {
+	display: flex;
+}
+
+#bir_yy {	
+	/* 년 */
+	width: 80px;	
+	margin-right: 5px;
+}
+
+#bir_mm {
+	width: 70px;
+	margin-right: 5px;
+}
+
+#dd {	
+	/* 일 */
+	width: 50px;	
+}
+
+
+
+/* 등록번호 입력 */
+#animalNum {
+	width: 300px;
+}
+
+
+/* 중성화 여부 */
+table.animal > tbody > tr:nth-child(9) > td:nth-child(2) {
+	display: flex;
+}
+
+
+table.animal > tbody > tr:nth-child(9) > td:nth-child(2) > label:nth-child(1) {
+	display: flex;
+	margin-right: 10px;
+}
+
+table.animal > tbody > tr:nth-child(9) > td:nth-child(2) > label:nth-child(2) {
+	display: flex;
+}
+
+table.animal > tbody > tr:nth-child(9) > td:nth-child(2) > label:nth-child(1) > div, table.animal > tbody > tr:nth-child(9) > td:nth-child(2) > label:nth-child(2) > div {
+	font-size: 15px;
+	
+}
+
+table.animal > tbody > tr:nth-child(9) > td:nth-child(2) input:nth-child(1), table.animal > tbody > tr:nth-child(9) > td:nth-child(2) input:nth-child(2) {
+	width: 18px;
+	height: 18px;
+}
+
+table.animal > tbody > tr:nth-child(9) > td:nth-child(2) > label:nth-child(1) > div, table.animal > tbody > tr:nth-child(9) > td:nth-child(2) > label:nth-child(2) > div {
+	padding-top: 3px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+table.animal tr:nth-child(10) > td:nth-child(2) > div {
+	display: flex;
+	font-size: 16px;
+}
+
+#weight {
+	width: 120px;
+	margin-right: 5px;
+}
+
+
+#disease {
+	width: 250px;
+}
+
+
+table.animal tr:nth-child(9) >  td:nth-child(2) > select {
+	
+	width: 130px;	
+}
+
+table.animal tr:nth-child(10) >  td:nth-child(2) > select {
+	
+	/* text-align: center; */
+	width: 160px;	
+}
+
+table.animal tr:nth-child(11) >  td:nth-child(2) > label {	
+	margin-right: 10px;		
+}
+
+
+
+/* 사망여부 */
+table.animal tr:nth-child(12) > td:nth-child(1) > div {
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+table.animal > tbody > tr:nth-child(12) > td:nth-child(2) {
+	display: flex;
+}
+
+
+table.animal > tbody > tr:nth-child(12) > td:nth-child(2) > label:nth-child(1) {
+	display: flex;
+	margin-right: 10px;
+}
+
+table.animal > tbody > tr:nth-child(12) > td:nth-child(2) > label:nth-child(2) {
+	display: flex;
+}
+
+table.animal > tbody > tr:nth-child(12) > td:nth-child(2) > label:nth-child(1) > div, table.animal > tbody > tr:nth-child(12) > td:nth-child(2) > label:nth-child(2) > div {
+	font-size: 15px;
+	
+}
+
+table.animal > tbody > tr:nth-child(12) > td:nth-child(2) input:nth-child(1), table.animal > tbody > tr:nth-child(12) > td:nth-child(2) input:nth-child(2) {
+	width: 18px;
+	height: 18px;
+}
+
+table.animal > tbody > tr:nth-child(12) > td:nth-child(2) > label:nth-child(1) > div, table.animal > tbody > tr:nth-child(12) > td:nth-child(2) > label:nth-child(2) > div {
+	padding-top: 3px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+table.animal tr:nth-child(13) >  td:nth-child(2) > input {	
+	width: 100px;
+}
+
+
+
+#required > tbody > tr:nth-child(13) {
+	height: 50px;
+	
+}
+
+#required > tbody > tr:nth-child(13) > td:nth-child(2){
+	padding-top: 13px;
+}
+
+
+#required > tbody > tr:nth-child(13) > td:nth-child(1) {
+	height: 20px;
+	text-align: center;
+	font-size: 20px;
+	/* padding-left: 40px; */
+}	
+
+
+
+
+
+
+
+
+
+
+/* 선택한 파일 지우는 x 버튼을 '파일선택' 버튼 옆으로 이동 */
+#picbox {
+	display: flex;
+	
+}
+
+/* 파일첨부 버튼 길이 고정 */
+#picbox > input {
+	width: 200px;
+}
+
+
+/* 첨부한 이미지 크기 고정 */
+#image_container > img {
+	margin-top: 10px;
+	width: 300px;
+	height: 270px;
+	border-radius: 10px;
+}
+
+
+
+#picbox > span {		
+	font-size: 16px;
+}
+
+#picbox > span:hover {
+	color: red;
+	cursor:pointer;	
+	
+}
+
+#subbtn {
+	display: flex;
+	justify-content: right;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+
+#subbtn > button {
+	width: 90px;
+	height: 40px;
+	font-size: 16px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#required > tbody > tr:nth-child(3) > td:nth-child(2), #required > tbody > tr:nth-child(4) > td:nth-child(2) {
+
+	font-size: 16px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

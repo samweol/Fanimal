@@ -1,0 +1,127 @@
+
+a:hover {
+	color: black;
+	text-decoration: none;	
+}
+
+#resdiv {
+	display: flex;
+	height: auto;
+}
+
+
+
+.resbox {
+	background-color: white;
+	width: 230px;
+	height: 100px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+#resdiv > a > .resbox:hover {
+	color: orange;
+	font-weight: 800;
+}
+
+
+#resdiv  table tr:nth-child(1) > td {
+	padding: 8px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+
+#resdiv  table tr:nth-child(2) {	
+	font-size: 16px;
+}
+
+#resdiv  table tr:nth-child(2) > td:nth-child(1) {
+	padding: 8px;	
+}
+
+
+#resdiv  table tr:nth-child(2) > td:nth-child(2) {
+	text-align: right;
+	padding-right: 5px;
+}
+
+
+
+
+
+
+#resbox > tbody > tr:nth-child(3) > td {
+	height: 35px;
+	padding: 0px;
+}
+
+
+
+/* 예약취소버튼 */
+#resdiv  table tr:nth-child(3) > td {
+	text-align: right;
+}
+
+#resdiv  table tr:nth-child(3) > td > input {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+/* 지난 예약 */
+#beforediv table {
+	background-color: #F2F2F2;
+	width: 1000px;
+	height: 70px;
+	margin-right: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+
+#beforediv table > tbody > tr:nth-child(1) > td {
+	padding: 15px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+#beforediv table > tr > td:nth-child(1) {
+	padding-left: 10px;
+	width: 100px;
+}
+
+
+#beforediv  table > tbody > tr > td:nth-child(2) {
+	width: 214px;
+}
+
+
+#beforediv table > tbody > tr > td:nth-child(3) {
+	width: 410px;
+}
+
+
+#beforediv table > tbody > tr > td:nth-child(4) {
+	width: 240px;
+}
+
+
+
+
+#beforebox {
+	
+}
+
+
+
+
+
+

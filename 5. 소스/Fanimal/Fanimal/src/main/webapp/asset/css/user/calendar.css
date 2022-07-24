@@ -1,0 +1,25 @@
+
+
+#addtbl {
+	
+	margin: 0 auto;
+	
+}
+
+
+#addtbl > tbody > tr:nth-child(1) > th {
+	font-size: 18px;
+} 
+
+hr {	
+	border: 0.5px solid #A6A6A6;
+	width: 1000px;
+}
+
+#addtbl > tbody > tr:nth-child(2) > td {
+	/* padding-right: 5px; */
+}
+
+#memo {
+	margin-right: 5px;
+}

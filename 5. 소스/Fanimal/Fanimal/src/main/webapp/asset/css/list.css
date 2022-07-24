@@ -1,0 +1,22 @@
+#dog_profile_img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+#dog_icon {
+    width: 30px;
+    height: 30px;
+}
+
+.gallery {
+    max-width: 300px;
+    max-height: 300px;
+    width: 25vw;
+    height: 25vw;
+    padding: 20px;
+}
+
+body>div>div{
+	position:relative;
+}

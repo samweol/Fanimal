@@ -1,0 +1,128 @@
+#content {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#content > table > tbody > tr > td:nth-child(1), #hbox, #hbox2 {
+	font-size: 20px;
+	font-weight: bold;
+	width: 120px;
+	height: 80px;
+	text-align: left;
+}
+
+
+
+#tblview {
+	background-color: #FFF7DC;
+	border-radius: 20px;	
+}
+
+
+#content > table > tbody > tr > td:nth-child(2) {
+	padding-top: 20px;
+	padding-left: 25px;
+	font-size: 20px;
+	font-weight: 500;	
+	width: 480px;
+	height: 60px;
+	
+}
+
+
+
+
+#content > table > tbody > tr > td:nth-child(1) > div, #hdiv, #hdiv2 {
+	text-align: center;
+	padding-top: 10px;
+	height: 50px;
+	background-color: gold;
+	border-radius: 10px;
+	width: 91px;
+	margin-left: 20px;
+}
+
+
+
+
+#content > table > tbody > tr:nth-child(2) > td:nth-child(3) > div {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-right: 20px;
+	/*백그라운드 위치 옵션을 center 정중앙에 위치  */
+	background-position: center;
+	
+	/*기본적으로 백그라운드의 옵션은 repeat이다. */
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#aniprofile {
+	width: 540px;
+	/* height: 480px; */
+	height: auto;
+	
+	
+}
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    
+    border-top: 0px solid #ddd;
+}
+
+
+
+#tblview > tbody > tr:nth-child(10) > td {
+	background-color: none;
+}
+
+#tblview > tbody > tr:nth-child(10) > td {
+	padding-right: 90px;
+}
+
+
+	
+.btn {
+	width: 100px;
+	height: 45px;
+	font-size: 17px; 
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

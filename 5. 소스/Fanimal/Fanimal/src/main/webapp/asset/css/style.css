@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'CookieRun-Regular';
+}
+
+section {
+    background-color: antiquewhite;
+    height: auto;
+}
+
+ul > li > a {
+    color: black;
+}
+
+ul > li > a:hover {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    /* text-shadow: 0px 0px 10px orange; */
+}
+
+main {
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    height: 100vh;
+}
+
+main > header > nav {
+    display: inline-block;
+    margin: 0 auto;
+    height: 100px;
+    overflow: hidden;
+}
+
+main > header {
+    justify-content: right;
+} 
+
+main > header > div#login {
+    margin-bottom: 10px;
+}
+
+
+main > header > nav {
+    margin-top: 0;
+}
+
+main > header > div#mainlogo {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('/fanimal/asset/images/logo.png');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    background-position: -25px -85px;
+}
+
+main > header > div > nav > div#mainmenu {
+    margin: 0 auto;
+}
+
+main > header > div > nav > div#mainmenu > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    /* background-color: antiquewhite; */
+    padding-right: 110px;
+    padding-left: 110px;
+    height: 60px;
+    align-items: center;
+    border-bottom: 4px solid gold;
+}
+
+main > header > div > nav > div#mainmenu > ul > li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+main > header> div#login {   
+    display: flex;
+    justify-content: right;
+    padding-top: 5px;
+
+}
+
+main > header > div#login > input {
+    width: 100px;
+    
+    
+}
+
+main > header > div#login > input:nth-child(1) {
+    margin-right: 5px;
+}
+
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    /* padding-top: 30px; */
+}
+
+
+
+/* ////////////////////////////////////////////////////// */
+
+
+
+.slider{
+    width: 940px;
+    height: 480px;
+    position: relative;
+    
+    overflow: hidden;
+}
+.slider input[type=radio]{
+    display: none;
+}
+
+ul.imgs{
+    padding: 0;
+    margin: 0;
+    
+}
+ul.imgs li{
+    position: absolute;
+    left: 640px;
+    transition-delay: 1s;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.imgs li > img {
+    width: 940px;
+}
+
+.bullets{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 2;
+}
+.bullets label{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.55);
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+    background-color: #fff;
+}
+.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+    background-color: #fff;
+}
+
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+
+
+.slider {
+    overflow:hidden;
+    margin:0 auto;
+}
+
+.image-thumbnail {
+    width:100%;
+    height:480px;
+    object-fit:cover;
+}
+
+footer > div {
+	padding: 2px;
+}
+
+footer > div > a {
+	color: gray;
+	text-decoration: none;
+}
+
+footer > div > a:hover {
+	color: #24292F;
+}
+
+/* #mainmenu .pure-menu-link {
+        color:black;
+    }
+    #mainmenu .pure-menu-children {
+        opacity: 0.8;
+        margin: 10px;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mainmenu .pure-menu-link:hover {
+        background-color: white;
+        color: orange;
+    }
+    #mainmenu > ul > li:nth-child(2) .pure-menu-children  {
+        margin-left: 200px;
+    }
+    #mainmenu > ul > li:nth-child(3) .pure-menu-children  {
+        margin-left: 400px;
+    }
+    #mainmenu > ul > li:nth-child(4) .pure-menu-children  {
+        margin-left: 600px;
+    }
+ */
