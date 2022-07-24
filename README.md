@@ -61,7 +61,7 @@ github-181717.svg?&style=flat&logo=GitHub&logoColor=white"/>
 
 ### 흐름도
 
-![Fanimal 흐름도](https://user-images.githubusercontent.com/94788360/180637641-6a080331-5a94-4c75-83b1-36cad29e9e4a.png)
+![Fanimal 흐름도](https://user-images.githubusercontent.com/94788360/180637726-56e3b97a-76bd-4852-814a-b6aeeec9891c.png)
 
 <br>
 
